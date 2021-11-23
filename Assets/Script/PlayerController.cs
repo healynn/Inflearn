@@ -8,6 +8,10 @@ struct MyVector
     public float x;
     public float y;
     public float z;
+    
+
+    // public abstract ;
+
 
     public float magnitude { get { return Mathf.Sqrt( x * x + y * y + z * z); } }  //피타고라스의 정의를 알면 된다
     public MyVector normalized { get { return new MyVector(x / magnitude, y / magnitude, z / magnitude); } }
