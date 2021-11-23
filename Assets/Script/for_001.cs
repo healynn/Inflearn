@@ -15,9 +15,13 @@ public class for_001 : MonoBehaviour
                 Debug.Log($"{a}*{b}={a * b}");
             }
         }
-        for (int i = 5; i < 0; i--)
+
+        char star = '*';
+        char blank = ' ';
+
+        for ()
         {
-            Debug.Log($"*****");
+         
         }
 
     }
